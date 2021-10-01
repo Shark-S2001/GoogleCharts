@@ -24,13 +24,12 @@
 		});
 
 		function drawChart(result) {
-
 			var data = new google.visualization.DataTable();
-			data.addColumn('string', 'product');
-			data.addColumn('number', 'price');
-			var dataArray = [];
-			$.each(result, function(i, obj) {
-				dataArray.push([ obj.product, parseInt(obj.price) ]);
+        data.addColumn('string', 'product');
+        data.addColumn('number', 'price');
+        var dataArray = [];
+        $.each(result, function(i, obj) {
+        dataArray.push([ obj.product, parseInt(obj.price) ]);
 			});
 
 			data.addRows(dataArray);

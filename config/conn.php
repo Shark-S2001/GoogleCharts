@@ -4,7 +4,7 @@
 	 */
 	//Connection Parameters
 	$server = "localhost";
-	$db ="gsmt_reports";
+	$db ="superdb";
 	$uid ="root";
 	$pwd ="Kiarithaini";
 
